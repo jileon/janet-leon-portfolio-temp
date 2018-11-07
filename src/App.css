@@ -8,6 +8,22 @@
   height: 473px;
   left: 22px;
   top: 54px;
+
+}
+#outline-section{
   border: 2px solid #635F5F;
+  height: 100%;
 }
 
+
+.outer-rectangle{
+  background: rgba(244, 240, 237, 0.91);
+}
+
+.inner-rectangle{
+  background: #FFFFFF;
+}
+
+section{
+  margin-bottom: 100px;
+}

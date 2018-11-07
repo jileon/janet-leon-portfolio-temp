@@ -3,11 +3,11 @@ import BurgerButton from './burgerbutton';
 import './dropdown-menu.css';
 export function DropdownMenu (){
     return (
-<div class="dropdown">
-  <button class="dropbtn">
+<div className="dropdown">
+  <button className="dropbtn">
   <BurgerButton/>
   </button>
-  <div class="dropdown-content">
+  <div className="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
