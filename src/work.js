@@ -4,6 +4,11 @@ import './work.css';
 
 export default function Work (){
     return(
+
+        <React.Fragment>
+            <div id= 'work'>
+
+            </div>
         <section id= 'myWork' className='outline-section-work'>
     <h3>Work</h3>
 
@@ -64,5 +69,6 @@ export default function Work (){
 
 
        </section>
+       </React.Fragment>
     );
 };

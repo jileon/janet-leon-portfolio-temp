@@ -73,9 +73,12 @@ left: 25px;
 
 
 section{
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
+#about{
+  height: 90px;
+}
 
 
 

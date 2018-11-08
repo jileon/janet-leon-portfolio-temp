@@ -11,8 +11,9 @@ export function DropdownMenu (){
   <BurgerButton/>
   </button>
   <div className="dropdown-content">
-    <a href="#aboutMe">About Me</a>
-    <a href="#">Link 2</a>
+  <a href="#home">home</a>
+    <a href="#about">About Me</a>
+    <a href="#work">Work</a>
     <a href="#">Link 3</a>
   </div>
 </div>

@@ -11,10 +11,11 @@ class App extends Component {
     return (
 
     <section className= 'main'>
-         <DropdownMenu/>
+           <DropdownMenu/>
+           <div></div>
       <section className="App">
     
-     
+   
        <MyName/>
        <AboutMe/>
        <Work/>

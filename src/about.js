@@ -3,6 +3,10 @@ import './about.css';
 
 export default function AboutMe (){
     return (
+        <React.Fragment>
+            <div id= 'about'>
+
+            </div>
         <section className='outline-section about'>
        <h3>About</h3>
         <section className= 'outer-rectangle'>
@@ -17,5 +21,6 @@ export default function AboutMe (){
           </section>
            </section>
        </section>
+       </React.Fragment>
     );
 };
