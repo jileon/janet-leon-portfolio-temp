@@ -7,13 +7,17 @@ import AboutMe from './about';
 class App extends Component {
   render() {
     return (
-     
+
+    <section>
+       
       <section className="App">
-      
-       <DropdownMenu/>
+      <DropdownMenu/>
+     
        <MyName/>
        <AboutMe/>
       </section>
+      </section>
+
     );
   }
 }
