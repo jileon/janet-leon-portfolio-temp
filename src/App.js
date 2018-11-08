@@ -3,18 +3,21 @@ import './App.css';
 import MyName from './name-intro';
 import DropdownMenu from './dropdown-menu';
 import AboutMe from './about';
+import Work from './work';
+
 
 class App extends Component {
   render() {
     return (
 
-    <section>
-       
+    <section className= 'main'>
+         <DropdownMenu/>
       <section className="App">
-      <DropdownMenu/>
+    
      
        <MyName/>
        <AboutMe/>
+       <Work/>
       </section>
       </section>
 

@@ -1,3 +1,5 @@
+
+
 .dropbtn {
     font-size: 16px;
     border: none;
@@ -16,10 +18,11 @@
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-top: 60px;
 }
 
 .dropdown-content a {
@@ -31,6 +34,9 @@
 
 .dropdown-content a:hover {background-color: red;}
 
-.dropdown:hover .dropdown-content {display: block; background: aqua;}
+.dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color:none;background:pink;}
+
+
+

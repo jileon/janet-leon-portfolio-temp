@@ -2,6 +2,8 @@
     cursor: pointer;
     margin-top: 0px;
     padding-top:20px;
+    text-align: right; 
+
   }
   
   .bar1, .bar2, .bar3 {
@@ -10,4 +12,5 @@
     background: #635F5F;
     margin: 6px 0;
     transition: 0.4s;
+    text-align: right;
   }

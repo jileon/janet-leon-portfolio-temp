@@ -1,0 +1,76 @@
+h4{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #9D9391;
+}
+
+img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.outline-section-work{
+    border: 2px solid #635F5F;
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+
+  .outer-rectangle-work{
+    background: rgba(244, 240, 237, 0.91);
+    width:90%;
+    height: 70%;
+    margin:  0 auto;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+  
+  }
+  
+  .inner-work{
+    background: #FFFFFF;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px;
+  
+    position: relative;
+    top: 7%;
+  }
+
+  #myWork p {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+    color: #9D9391;
+  }
+
+  button {
+
+    width: 100px;
+    height: 20px;
+
+
+background: #91867C;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+
+color: #FFFFFF;
+  }

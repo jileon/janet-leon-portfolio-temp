@@ -3,7 +3,7 @@ import './name-intro.css';
 export function MyName (){
     const webDev = '<webdev/>';
     return (
-        <section  id='outline-section'>
+        <section  className='outline-section'>
         <header className= 'header-section'>
             <h1>Janet Leon</h1>
             <h2>{webDev}</h2>

@@ -1,4 +1,4 @@
-.aboutMe{
+#aboutMe{
     position: relative;
     top: 10%;
   }
@@ -7,33 +7,36 @@
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
-  line-height: 10px;
   font-size: 12px;
   letter-spacing: 0.03em;
   color: #9D9391;
   text-align: left;
+  margin-top: 20px;
   }
   
-  .aboutMe h1 {
+  #aboutMe h1 {
     font-family: Roboto Condensed;
   font-style: normal;
   font-weight: bold;
   line-height: 30px;
-  font-size: 29px;
-  text-align: center;
+  font-size: 19px;
+  text-align: left;
   letter-spacing: 0.03em;
   color: #9D9391;
   margin-top: 20px;
   }
   
   .description{
-    font-family: Roboto Slab;
+    font-family: Roboto condensed;
   font-style: normal;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 20px;
   font-size: 11px;
   letter-spacing: 0.06em;
   text-align: left;
   color: #9D9391;
   margin-top: 20px;
+
   }
+
+ 
