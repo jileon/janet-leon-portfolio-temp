@@ -4,17 +4,17 @@ export function MyName (){
     const webDev = '<webdev/>';
     return (
 
-        <React.Fragment>
-        <div id= 'home'>
-
-        </div>
-        <section  className='outline-section'>
-        <header className= 'header-section'>
+     
+        <header className='outline-section'>
+         <p>full site coming soon</p>
             <h1>Janet Leon</h1>
             <h2>{webDev}</h2>
+           <div className='icons'>
+            <i className="fab fa-linkedin-in"></i>
+            <i className="fab fa-github"></i>
+            </div>
         </header>
-        </section>
-        </React.Fragment>
+
         
     )
 }
