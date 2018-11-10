@@ -1,6 +1,6 @@
 .outline-section {
-	width: 45vh;
-	height: 45vh;
+	width: 50vh;
+	height: 50vh;
 	margin: 3px;
 	border-radius: 100%;
 	background: #e9d9d4c7;
@@ -15,11 +15,11 @@
 
 header h1 {
 	width: 90%;
-
+    margin-top: 40px;
 	font-family: Petit Formal Script;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
 	letter-spacing: -0.07em;
 	color: #ffffff;
@@ -33,7 +33,7 @@ header h2 {
 	font-style: normal;
 	font-weight: bold;
 	line-height: 23px;
-	font-size: 25px;
+	font-size: 35px;
 	text-align: center;
 	letter-spacing: -0.05em;
 	color: #494646;
@@ -46,8 +46,9 @@ p {
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	color: #9d9391;
-	text-align: center;
-	margin-top: 40px;
+    text-align: center;
+    position: relative;
+    top:-40px;
 }
 
 i {
@@ -55,83 +56,115 @@ i {
 }
 
 .fab {
-	font-size: 20px;
+    font-size: 20px;
+    color: rgb(37, 35, 35);
 }
 
 .icons {
 	margin-top: 10px;
 }
 
-/* @media (min-height: 512px) and (min-width: 370px) {
+
+@media only screen 
+and (min-device-width : 311px) 
+and (max-device-width : 320px) {
 	header h1 {
-		padding-top: 1px;
+		font-size: 55px;
+        color: #ffffff;
+	}
+
+	header h2 {
+		padding: 1px;
 		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 5px;
 	}
 
 	.fab {
 		font-size: 30px;
-	}
-} */
-
-
-
-/* 
-            @media (min-height:812px) and (min-width: 370px){
-                header h1{
-                    padding-top: 1px;
-                    margin-top: 10px;
-                    font-size: 55px;
-                    color: red;
-                  
-                    }
-
-                    .fab {
-                        font-size: 40px;
-                    }
-            } */
-
-/* 
-
-
-
-    @media only screen and (min-width: 350px){
-        header h1{
-            padding-top: 10px;
-            padding-right: 20px;
-            margin-top: 0px;
-            font-size: 40px;
-            color: red;
-            }
-
-
-        header h2 {
-            padding: 10px;
-            margin-top: 0px;
-            font-size: 30px;
-            
-        }
-
-        p {
-            font-size: 12px;
-            margin-top: 70px;        
-            } 
-
-            .fab {
-                font-size: 30px;
-            }
-        
-         .icons{
-            margin-top: 0px;
-            }
-
     }
+        
+}
 
-    */
 
-@media (min-width: 411px) {
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 410px) {
 	header h1 {
 		font-size: 55px;
-		color: #ffffff;
+        color: #ffffff;
+	}
+
+	header h2 {
+		padding: 1px;
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 5px;
+	}
+
+	.fab {
+		font-size: 30px;
+    }
+   
+}
+
+
+
+@media only screen and (min-device-width : 360px)  {
+	header h1 {
+		font-size: 45px;
+        color: #ffffff;
+
+	}
+
+	header h2 {
+		padding: 1px;
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 5px;
+	}
+
+	.fab {
+		font-size: 30px;
+    }
+
+    .outline-section {
+        width: 43vh;
+        height: 43vh;
+
+    }
+   
+}
+
+@media only screen and (min-width: 411px) {
+	header h1 {
+		font-size: 55px;
+        color: #ffffff;
+
 	}
 
 	header h2 {
@@ -152,9 +185,29 @@ i {
 	.fab {
 		font-size: 40px;
     }
+
+    .outline-section {
+        width: 50vh;
+        height: 50vh;
+
+    }
+    
         
 }
 
+
+
+@media only screen (min-width:712px){
+    header h1 {
+        font-size: 55px;
+
+    }
+    
+    .fab {
+        font-size: 70px;
+
+    }
+}
 
 
 @media(min-height:812px){
@@ -167,7 +220,7 @@ i {
     }
 }
 
-@media(min-width:900px){
+@media only screen and (min-width:900px){
     header h1 {
 		font-size: 85px;
 		color: #ffffff;
@@ -189,7 +242,7 @@ i {
 	}
 
 	.fab {
-		font-size: 60px;
+		font-size: 70px;
     }
 
     i {
@@ -203,20 +256,20 @@ i {
     }
 }
 
-@media (min-width: 1020px) {
+@media only screen(min-width: 1020px) {
 	header h1 {
-		font-size: 95px;
+		font-size: 75px;
 		color: #ffffff;
 	}
 
 	header h2 {
 		padding: 1px;
 		margin-top: 45px;
-		font-size: 70px;
+		font-size: 60px;
 	}
 
 	p {
-		font-size: 34px;
+		font-size: 20px;
 		margin-top: 20px;
 	}
 
@@ -225,7 +278,7 @@ i {
 	}
 
 	.fab {
-		font-size: 60px;
+		font-size: 70px;
     }
 
     i {

@@ -10,7 +10,7 @@ class App extends Component {
 
 
       <section className="container">
-    
+             <p>full site coming soon</p>
    
        <MyName/>
 
