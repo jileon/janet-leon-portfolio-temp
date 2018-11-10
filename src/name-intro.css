@@ -1,76 +1,113 @@
-
-
-
 .outline-section {
+	width: 45vh;
+	height: 45vh;
+	margin: 3px;
+	border-radius: 100%;
+	background: #e9d9d4c7;
 
-    width: 50vh;
-    height: 50vh;
-    border-radius: 100%;
-    background: #e9d9d4c7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	box-sizing: border-box;
+}
 
-    }
-    
-    header h1{
-    padding-top: 20px;
-    padding-right: 20px;
-    font-family: Petit Formal Script;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 52px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: -0.07em;
-    color: #FFFFFF;
-    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.42);
+header h1 {
+	width: 90%;
 
-    }
-    
-    header h2 {
-        padding: 15px;
-        margin-top: 0px;
-        font-family: Prestige Elite Std;
-        font-style: normal;
-        font-weight: bold;
-        line-height: 23px;
-        font-size: 23px;
-        text-align: center;
-        letter-spacing: -0.05em;
-        color: #494646;
-        
-    }
+	font-family: Petit Formal Script;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: -0.07em;
+	color: #ffffff;
+	text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.42);
+}
 
-    p {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 0.03em;
-    color: #9D9391;
-    text-align: center;
-    margin-top: 40px;
+header h2 {
+	padding: 1px;
+	margin-top: 0px;
+	font-family: Prestige Elite Std;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 23px;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: -0.05em;
+	color: #494646;
+}
 
-    } 
+p {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: #9d9391;
+	text-align: center;
+	margin-top: 40px;
+}
 
-    i{
-        width: 60px;
-    }
+i {
+	padding: 10px;
+}
 
-    .fab {
-        font-size: 30px;
-    }
+.fab {
+	font-size: 20px;
+}
+
+.icons {
+	margin-top: 10px;
+}
+
+/* @media (min-height: 512px) and (min-width: 370px) {
+	header h1 {
+		padding-top: 1px;
+		margin-top: 10px;
+	}
+
+	.fab {
+		font-size: 30px;
+	}
+} */
+
+
+
+/* 
+            @media (min-height:812px) and (min-width: 370px){
+                header h1{
+                    padding-top: 1px;
+                    margin-top: 10px;
+                    font-size: 55px;
+                    color: red;
+                  
+                    }
+
+                    .fab {
+                        font-size: 40px;
+                    }
+            } */
+
+/* 
+
 
 
     @media only screen and (min-width: 350px){
         header h1{
-            padding-top: 15px;
+            padding-top: 10px;
             padding-right: 20px;
-            margin-top: 10px;
+            margin-top: 0px;
+            font-size: 40px;
+            color: red;
             }
 
 
         header h2 {
-            padding: 15px;
-            margin-top: 10px;
+            padding: 10px;
+            margin-top: 0px;
+            font-size: 30px;
             
         }
 
@@ -79,8 +116,126 @@
             margin-top: 70px;        
             } 
 
+            .fab {
+                font-size: 30px;
+            }
+        
          .icons{
-            margin-top: 10px;
+            margin-top: 0px;
             }
 
     }
+
+    */
+
+@media (min-width: 411px) {
+	header h1 {
+		font-size: 55px;
+		color: #ffffff;
+	}
+
+	header h2 {
+		padding: 1px;
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 14px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 30px;
+	}
+
+	.fab {
+		font-size: 40px;
+    }
+        
+}
+
+
+
+@media(min-height:812px){
+    header h1 {
+		font-size: 55px;
+    }
+    
+    .fab {
+		font-size: 40px;
+    }
+}
+
+@media(min-width:900px){
+    header h1 {
+		font-size: 85px;
+		color: #ffffff;
+	}
+
+	header h2 {
+		padding: 1px;
+		margin-top: 45px;
+		font-size: 50px;
+	}
+
+	p {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 30px;
+	}
+
+	.fab {
+		font-size: 60px;
+    }
+
+    i {
+        padding: 20px;
+    }
+
+    .outline-section {
+        width: 70vh;
+        height: 70vh;
+
+    }
+}
+
+@media (min-width: 1020px) {
+	header h1 {
+		font-size: 95px;
+		color: #ffffff;
+	}
+
+	header h2 {
+		padding: 1px;
+		margin-top: 45px;
+		font-size: 70px;
+	}
+
+	p {
+		font-size: 34px;
+		margin-top: 20px;
+	}
+
+	.icons {
+		margin-top: 30px;
+	}
+
+	.fab {
+		font-size: 60px;
+    }
+
+    i {
+        padding: 20px;
+    }
+
+    .outline-section {
+        width: 70vh;
+        height: 70vh;
+
+    }
+        
+}
